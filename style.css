@@ -1,0 +1,61 @@
+.jumbotron {
+    padding-top: 3rem;
+    background-color: #c8d2df;
+}
+#projects {
+    background-color: #c8d2df;
+}
+section {
+    padding-top: 3rem;
+}
+footer {
+    background-color: #6c757d;
+}
+.footerContainer {
+    width: 100%;
+}
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #6c757d;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1em;
+    color: white;
+    opacity: 0.9;
+}
+/* hover efect social media icons */
+.socialIcons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.footerBottom {
+    background-color: #5e676e;
+    padding: 10px;
+    text-align: center;
+}
+.footerBottom P{
+    color: white;
+}
+.rama {
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
